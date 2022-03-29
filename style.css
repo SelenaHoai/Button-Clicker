@@ -70,10 +70,11 @@ body {
 .practitionerbox {
   border: 3px solid black;
   height: 200px;
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: flex-start;
   align-items: row;
+  padding-right: 5%;
 }
 
 .ninja-practitioner {
@@ -105,11 +106,12 @@ body {
 .programmerbox {
   border: 3px solid black;
   height: 200px;
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: flex-start;
   align-items: row;
   margin-top: 20px;
+  padding-right: 5%;
 }
 
 .ninja-programmer {

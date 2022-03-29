@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- top navigation bar -->
+
+    <div class="nav-container">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" placeholder="Search" name="query" class="search">
+        <button onclick="logOut(this)" class="btn">Login</button>
+    </div>
+
+<!--------------------- MAIN CONTAINER ---------------------->
+
+    <div class="main">
+
+<!--------------------- Left Column ---------------------->   
+
+<!--- Ninja Practitioner ---->   
+
+        <div class="leftcolumn">
+            <div class="practitionerbox">
+                <div class="ninja-practitioner">
+                    <h1>ninja</h1>
+                    <h4>noun</h4>
+                    <h5>Plural: <i>ninjas</i></h5>
+                    <button onclick="example(this)" class="thirdteen">13 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A practitioner skilled in the</p> 
+                    <a href="#">Japanese</a> art of 
+                    <a href="#">ninjutsu</a>
+                </div>
+            </div>
+<!--- Ninja Programmer -->   
+
+            <div class="programmerbox">   
+                <div class="ninja-programmer">
+                    <h1>ninja</h1>
+                    <h4>noun</h4>
+                    <h5>Plural: <i>ninjas</i></h5>
+                    <button onclick="example(this)" class="thirtyseven">37 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A <a href="#">programmer</a> who breaks</p>
+                    <p>down problems with <a href="#">zen</a>-like</p>
+                    <p>focus</p>
+                </div>  
+            </div>
+        </div>
+
+<!--------------------- Right Column ---------------------->   
+
+<!-------- Ninja Practitioner --------->   
+        <div class="rightcolumn">  
+            <div class="add-definition">
+                <p>Dojonary is </p>
+                <p>defined by YOU</p>
+                <button onclick="hide(this)" class="adddefinition">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+<!-- JavaScript linking -->
+    <script src="script.js"></script>
+</body>
+</html>
